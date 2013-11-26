@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Precioss</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_secundaria">Secundaria</string>
+    <string name="title_activity_productos">Productos</string>
+    
+    <string name="lbl10doloid">El 10,5% es:</string><string name="btnMostrar">Mostrar precios con aumento</string>
+    
+    <string name="lblsalu2">Elija producto:</string>
+    <string name="txtingresarproducto"/>
+    <string name="txt10id">Con el aumento del 10,5% es: </string>
+    <string name="lbl21soloid">El 21% es: </string>
+    <string name="txt21id">Con el aumento del 21% es: </string>
+    <string name="seleccionA">Producto A</string>
+    <string name="seleccionB">Producto B</string>
+    <string name="seleccionC">Producto C</string>
+    <string name="stock1">Producto 1: </string>
+    <string name="stock2">Producto 2: </string>
+    <string name="stock3">Producto 3: </string>
+    <string name="stock4">Producto 4: </string>
+    <string name="saldoini">Saldo: </string>
+    <string name="separador">- - - - - - - - - - - - - - - - - - - - - - </string>
+    <string name="Comprar">Comprar producto ingresado </string>
+    <string name="Vender">Vender producto ingresado </string>
+    <string name="txtproductoseleccionar">Indique la cantidad de unidades de ese producto</string>
+    <string name="preciosolo">El precio del producto es: </string>
+    <string name="verproductos">Ver Productos</string>
+    <string name="tituloproductos">Productos disponibles</string>
+    <string name="producto1">Producto: 1 (valor = $400)</string>
+    <string name="producto2">Producto: 2 (valor = $500)</string>
+    <string name="producto3">Producto: 3 (valor = $600)</string>
+    <string name="producto4">Producto: 4 (valor = $700)</string>
+    <string name="modificarprecio">Modificar precio(hará una suma o resta al precio por defecto del producto dependiendo el signo del numero a ingresar):</string>
+    <string name="stocktitu">Stock de productos:</string>
+
+</resources>

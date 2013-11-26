@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:background="@drawable/textura1" >
+
+    <TextView
+        android:id="@+id/lblSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="Ingresar"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtDiezId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblSaludo"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="40dp"
+        android:text="Usuario"
+        android:textColorLink="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editNombreId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtDiezId"
+        android:layout_alignBottom="@+id/txtDiezId"
+        android:layout_alignLeft="@+id/lblSaludo"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtContraseniaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editNombreId"
+        android:layout_below="@+id/editNombreId"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/txtVeintesoloId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtContraseniaId"
+        android:layout_alignBottom="@+id/txtContraseniaId"
+        android:layout_alignLeft="@+id/txtDiezId"
+        android:text="Contraseña"
+        android:textColorLink="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtContraseniaId"
+        android:layout_below="@+id/txtContraseniaId"
+        android:layout_marginTop="56dp"
+        android:onClick="pasarActividad"
+        android:text="Entrar" />
+
+</RelativeLayout>
